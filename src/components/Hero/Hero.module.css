@@ -1,0 +1,143 @@
+.hrwp {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 96px 0 32px;
+}
+
+.hrciwp {
+  max-width: 968px;
+  box-sizing: border-box;
+  padding: 96px 0 32px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.hrcwp {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.hrt {
+  font-size: 32px;
+  margin: 0 0 12px;
+  width: 85%;
+}
+
+.hrdc {
+  width: 100%;
+  /* color: var(--text-color-xl); */
+  margin: 0 0 32px;
+  font-size: 15px;
+}
+
+.her {
+  flex-direction: row-reverse;
+}
+
+.hrbw {
+  /* width: 202px; */
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* border: 1px solid red; */
+}
+
+.hriwp {
+  /* border: 1px solid red; */
+  width: 55%;
+}
+
+@media (max-width: 1024px) {
+  .hrciwp {
+    margin: 0 24px;
+  }
+
+  .hrcwp {
+    /* border: 1px solid blue; */
+    width: 49%;
+  }
+
+  .hriwp {
+    /* border: 1px solid blue; */
+    width: 49%;
+  }
+
+  .hrdc {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .hrwp {
+    padding: 72px 0 16px;
+  }
+
+  .hrciwp {
+    padding: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .hrciwp {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .her {
+    flex-direction: column;
+  }
+
+  .hrcwp {
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+
+  .hriwp {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hriwp img {
+    /* border: 1px solid red; */
+    width: 70% !important;
+  }
+
+  .hrdc {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+
+  .hrt {
+    width: 100%;
+  }
+}
+
+@media (max-width: 456px) {
+  .hriwp img {
+    /* border: 1px solid red; */
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 330px) {
+  .hrbw {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* border: 1px solid purple; */
+  }
+
+  .hriwp img {
+    /* border: 1px solid red; */
+    width: 100% !important;
+  }
+
+  .hrwp {
+    padding: 56px 0 16px;
+  }
+}

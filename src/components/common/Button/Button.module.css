@@ -1,0 +1,40 @@
+button {
+    padding: .75rem 1.5rem;
+    border-radius: 3rem;
+    font-weight: 600;
+    color: #1A1A1A;
+    border: none;
+    cursor: pointer;
+    margin: 0 0 0 12px;
+}
+
+button i {
+    margin: 0 10px 0 0;
+    font-size: 1.45rem !important;
+}
+
+.hbs {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media (max-width: 682px) {
+    button {
+        margin: 12px 0 0 0;
+    }
+}
+
+@media (max-width: 567px) {
+    button {
+        margin: 0 0 0 12px;
+    }
+}
+
+@media (max-width: 360px) {
+    button {
+        margin: 12px 0 0 12px;
+    }
+}

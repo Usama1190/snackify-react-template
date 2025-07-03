@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  transition: all 0.3s ease-in-out;
+  scrollbar-width: thin;
+    scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+}
+
+
+:root {
+  --primary-color: #F5C83D;
+  --secondary-color: #FAE39E;
+  --heading-color: #1A1A1A;
+  --link-color: #282725;
+  --para-color: #5D5B56;
+  --color-changer-orange: #F07642;
+  --color-changer-yellow: #FDCB35;  
+  --color-changer-green: #69CC66;
+  --color-changer-red: #F5493D;
+  --bg-color: #ffffff;
+  --shadow: #c7c7c7;
+}
+
+h1, h2, h3 {
+  color: var(--heading-color);
+}
+
+p {
+  color: var(--para-color);
+}
+
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+ul li {
+  list-style: none;
+}
+
+/* Theme changing */
+html.light {
+  --bg-color: #ffffff;
+  --heading-color: #1A1A1A;  /* Black */
+  --link-color: #282725;
+  --para-color: #5D5B56;
+  --shadow: #c7c7c7;
+  background-color: var(--bg-color);
+}
+
+html.dark {
+  --bg-color: #24221E;
+  --heading-color: #f3f3f2;  /* White for dark theme */
+  --link-color: #f3f3f2; /* Yellow links */
+  --para-color: #CECDCA; /* Light gray text */
+  --secondary-color: #2C2A26;
+  --shadow: #1d1d1d;
+  background-color: var(--bg-color);
+}
+
+/* Smooth Transition */
+html {
+  transition: background-color 0.3s, color 0.3s;
+  scroll-behavior: smooth;
+}

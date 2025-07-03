@@ -1,0 +1,44 @@
+.scwp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 21rem;
+    padding: 32px 24px;
+    width: 32%;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 8px var(--shadow);
+}
+
+.sct {
+    margin: 0 0 16px;
+}
+
+.scig {
+    width: 135px;
+    height: 104px;
+    margin: 0 0 20px;
+}
+
+.scdes {
+    margin: 0 0 24px;
+    font-size: 15px;
+    /* color: var(--para-color); */
+}
+
+.cw {
+    width: 130px;
+}
+
+@media (max-width: 967px) {
+    .scwp {
+        width: 48.5%;
+        margin: 16px 0 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .scwp {
+        width: 100%;
+    }
+}
