@@ -1,29 +1,29 @@
 const contactData = {
   en: {
-    title: "Contact Us From Here",
+    title: "Let’s Connect",
     description:
-      "You can contact us from here, you can write to us, call us or visit our service center, we will gladly assist you.",
-      btnText: ['Contact Us']
+      "Have a question or need help? Call, write, or visit us — our team is ready to assist you anytime.",
+    btnText: ["Contact Us"],
   },
   ur: {
-    title: "یہاں سے ہم سے رابطہ کریں۔",
+    title: "آئیے رابطہ کریں",
     description:
-      "آپ یہاں سے ہم سے رابطہ کر سکتے ہیں، آپ ہمیں لکھ سکتے ہیں، ہمیں کال کر سکتے ہیں یا ہمارے سروس سنٹر پر جا سکتے ہیں، ہم خوشی سے آپ کی مدد کریں گے۔",
-      btnText: ['ہم سے رابطہ کریں۔']
+      "کوئی سوال ہے یا مدد چاہیے؟ ہمیں کال کریں، لکھیں یا ہمارے پاس آئیں — ہماری ٹیم ہر وقت آپ کی مدد کے لیے تیار ہے۔",
+    btnText: ["ہم سے رابطہ کریں"],
   },
-}
+};
 
 const contactInfo = {
   en: {
-    tel: "Telephone",
+    tel: "Phone",
     email: "Email",
-    location: "Location",
+    location: "Address",
   },
   ur: {
-    tel: "ٹیلی فون",
+    tel: "فون",
     email: "ای میل",
-    location: "مقام",
-  }
-}
+    location: "پتہ",
+  },
+};
 
 export { contactData, contactInfo };

@@ -1,20 +1,20 @@
 const footerData = {
   en: [
     {
-      title: "Delivery",
-      description: ["Order Products Faster Easier"],
+      title: "Deliveries",
+      description: ["Fast & Fresh Food Orders"],
     },
     {
       title: "Our Services",
-      links: ["Pricing", "Discounts", "Report a Bug", "Terms of Service"],
+      links: ["Pricing", "Offers", "Report Issue", "Terms & Conditions"],
     },
     {
-      title: "Our Company",
-      links: ["Blog", "Our Mission", "Get in Touch"],
+      title: "About Snackify",
+      links: ["Blog", "Our Promise", "Contact Us"],
     },
     {
       title: "Community",
-      links: ["Support", "Questions", "Customer Help"],
+      links: ["Help Center", "FAQs", "Customer Support"],
     },
     {
       icons: ["fa-brands fa-facebook", "fa-brands fa-twitter", "fa-brands fa-instagram"],
@@ -22,20 +22,20 @@ const footerData = {
   ],
   ur: [
     {
-      title: "ڈیلیوری",
-      description: ["مصنوعات کو تیزی سے آسانی سے آرڈر کریں۔"],
+      title: "ڈیلیوریز",
+      description: ["تیز اور تازہ کھانے کا آرڈر"],
     },
     {
       title: "ہماری خدمات",
-      links: ["قیمتوں کا تعین", "چھوٹ", "بگ کی اطلاع دیں۔", "سروس کی شرائط"],
+      links: ["قیمتیں", "آفرز", "مسئلہ رپورٹ کریں", "شرائط و ضوابط"],
     },
     {
-      title: "ہماری کمپنی",
-      links: ["بلاگ", "ہمارا مشن", "رابطے میں رہیں"],
+      title: "اسنیکفی کے بارے میں",
+      links: ["بلاگ", "ہمارا وعدہ", "ہم سے رابطہ کریں"],
     },
     {
-      title: "برادری",
-      links: ["حمایت", "سوالات", "کسٹمر ہیلپ"],
+      title: "کمیونٹی",
+      links: ["ہیلپ سینٹر", "اکثر پوچھے گئے سوالات", "کسٹمر سپورٹ"],
     },
     {
       icons: ["fa-brands fa-facebook", "fa-brands fa-twitter", "fa-brands fa-instagram"],

@@ -2,10 +2,10 @@ const heroData = {
   en: [
     {
       id: "home",
-      title: "Order Products Faster Easier",
+      title: "Get Meals Delivered Fast & Fresh",
       description:
-        "Order your favorite foods at any time and we will deliver them right to where you are.",
-      btnText: ["Get Started"],
+        "Craving delicious food? Place your order anytime — we’ll bring it straight to your door, hot and ready to enjoy.",
+      btnText: ["Order Now"],
       btnLink: ["/"],
       imgUrl: "../../assets/imgs/bannerImage.svg?react",
       imgAlt: "food delivery rider image",
@@ -15,9 +15,9 @@ const heroData = {
     },
     {
       id: "about",
-      title: "Find Out A Little More About Us",
+      title: "Who We Are",
       description:
-        "We are a company dedicated to the distribution of products by delivery to your home or to the place where you are, with the best quality of delivery.",
+        "Snackify makes ordering food simple and stress-free. We deliver tasty meals straight to your doorstep with speed, care, and top-notch quality.",
       imgUrl: "../../assets/imgs/bannerImage2.svg?react",
       imgAlt: "delivery boy on the door",
       isrotate: true,
@@ -26,9 +26,9 @@ const heroData = {
       pl: [1, 64]
     },
     {
-      title: "Your Safety Is Important",
+      title: "Your Safety, Our Priority",
       description:
-        "When your order reaches you, we have the health safety protocols, so that you are protected from any disease. Watch the video of how the delivery is made.",
+        "We follow strict hygiene and safety measures to keep your food fresh and you protected. Watch how we pack and deliver every order with care.",
       imgUrl: "../../assets/imgs/bannerImage3.svg?react",
       imgAlt: "delivery boy deliver order",
       imgLaout: { width: "100%", height: "20.8125rem" },
@@ -36,9 +36,9 @@ const heroData = {
       pl: [1]
     },
     {
-      title: "Watch Your Delivery At Any Time",
+      title: "Track Every Bite in Real-Time",
       description:
-        "With our app you can view the route of your order, from our local headquarters to the place where you are. Look for the app now!",
+        "Download our app to see exactly where your order is — from our kitchen to your doorstep. Stay updated every minute!",
       btnText: ["App Store", "Google Play"],
       btnLink: ["/", "/"],
       btnIcons: ["fa-brands fa-apple", "fa-brands fa-google-play"],
@@ -53,48 +53,48 @@ const heroData = {
   ur: [
     {
       id: "home",
-      title: "مصنوعات کو تیزی سے اور آسانی سے آرڈر کریں",
+      title: "مزیدار کھانے تیزی سے اور تازہ ڈیلیور ہوں",
       description:
-        "کسی بھی وقت اپنے پسندیدہ کھانے کا آرڈر دیں اور ہم انہیں آپ کی جگہ پر پہنچائیں گے۔",
-      btnText: ["شروع کریں"],
+        "مزیدار کھانا کھانے کا دل کر رہا ہے؟ جب چاہیں آرڈر کریں — ہم گرم اور تازہ کھانا آپ کے دروازے تک پہنچائیں گے۔",
+      btnText: ["ابھی آرڈر کریں"],
       btnLink: ["/"],
       imgUrl: "../../assets/imgs/bannerImage.svg?react",
-      imgAlt: "food delivery rider image",
+      imgAlt: "کھانا ڈیلیور کرنے والا رائیڈر",
       imgLaout: { width: "100%", height: "19.75rem" },
       pd: [20, 33, 34, 35, 36, 37, 39, 40, 42, 44, 46, 56, 57, 64, 71, 75, 79, 85, 86, 87, 88, 101, 102, 109, 110, 112, 113, 114],
       pl: []
     },
     {
       id: "about",
-      title: "ہمارے بارے میں تھوڑا سا مزید جانیں۔",
+      title: "ہم کون ہیں",
       description:
-        "ہم ایک ایسی کمپنی ہیں جو آپ کے گھر یا اس جگہ پر جہاں آپ ہیں، ترسیل کے بہترین معیار کے ساتھ مصنوعات کی تقسیم کے لیے وقف ہیں",
+        "Snackify آپ کا کھانا آرڈر کرنا آسان اور بے فکر بناتا ہے۔ ہم ذائقہ دار کھانے تیزی سے اور بہترین معیار کے ساتھ آپ کے دروازے تک پہنچاتے ہیں۔",
       imgUrl: "../../assets/imgs/bannerImage2.svg?react",
-      imgAlt: "delivery boy on the door",
+      imgAlt: "دروازے پر ڈیلیوری بوائے",
       isrotate: true,
       imgLaout: { width: "100%", height: "22.1875rem" },
       pd: [26, 29, 32, 42, 43, 53, 64, 65, 75, 80, 85],
       pl: [1]
     },
     {
-      title: "آپ کی حفاظت اہم ہے۔",
+      title: "آپ کی حفاظت، ہماری ترجیح",
       description:
-        "جب آپ کا آرڈر آپ تک پہنچتا ہے، تو ہمارے پاس ہیلتھ سیفٹی پروٹوکول ہوتے ہیں، تاکہ آپ کسی بھی بیماری سے محفوظ رہیں۔ ڈیلیوری کیسے ہوتی ہے ویڈیو دیکھیں۔",
+        "ہم صفائی اور حفاظت کے سخت اصولوں پر عمل کرتے ہیں تاکہ آپ کا کھانا تازہ اور آپ محفوظ رہیں۔ دیکھیں ہم کس طرح ہر آرڈر پیک اور ڈیلیور کرتے ہیں۔",
       imgUrl: "../../assets/imgs/bannerImage3.svg?react",
-      imgAlt: "delivery boy deliver order",
+      imgAlt: "ڈیلیوری بوائے آرڈر پہنچا رہا ہے",
       imgLaout: { width: "100%", height: "20.8125rem" },
       pd: [7, 10, 23, 24, 32, 33, 35, 36, 45, 46, 47, 52, 57, 58, 61, 67, 86, 88],
       pl: [1]
     },
     {
-      title: "کسی بھی وقت اپنی ڈیلیوری دیکھیں",
+      title: "ہر بائٹ کا ٹریک ریئل ٹائم میں رکھیں",
       description:
-        "ہماری ایپ کے ذریعہ آپ اپنے آرڈر کا روٹ ہمارے مقامی ہیڈ کوارٹر سے اس جگہ تک دیکھ سکتے ہیں جہاں آپ ہیں۔ ابھی ایپ تلاش کریں",
+        "ہماری ایپ ڈاؤن لوڈ کریں اور دیکھیں آپ کا آرڈر کہاں ہے — ہماری کچن سے آپ کے دروازے تک۔ ہر لمحہ اپڈیٹ رہیں!",
       btnText: ["App Store", "Google Play"],
       btnLink: ["/", "/"],
       btnIcons: ["fa-brands fa-apple", "fa-brands fa-google-play"],
       imgUrl: "../../assets/imgs/bannerImage4.svg?react",
-      imgAlt: "delivery boy set location",
+      imgAlt: "لوکیشن سیٹ کرتا ڈیلیوری بوائے",
       isrotate: true,
       imgLaout: { width: "100%", height: "24.125rem" },
       pd: [16, 32, 33, 73, 105, 115, 116, 117],
